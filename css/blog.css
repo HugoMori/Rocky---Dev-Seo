@@ -1,0 +1,577 @@
+
+/* ------------------------ Geral ------------------------ */
+
+h2{
+    letter-spacing: -.03em!important;
+}
+
+section{
+    padding-top: 0;
+    margin-top: 0;
+}
+
+body{
+    background: none!important;
+}
+
+.common-col{
+    padding: 3em;
+}
+
+.info-space{
+    margin-top: 2em;
+    max-width: 80%;
+}
+
+.info-space article{
+    padding: 1.5em;
+    color: black;
+    font-size: medium;
+    font-family: system-ui;
+    font-weight: 100!important;
+    letter-spacing: .05em;
+}
+
+.info-space article h3{
+    font-size: 1.5em!important;
+    color: gold;
+    text-transform: uppercase;
+}
+
+.info-space article p{
+    margin-top: 1.5em;
+    text-align: justify;
+}
+
+.img-space{
+    margin-top: 5%;
+    text-align: center;
+    max-width: 40%;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.area-commom{
+    max-width: 45%;
+    min-height: 5em;
+    margin-right: 3em;
+}
+
+.img-space img{
+    width: 70%;
+    transform: rotate(-15deg);
+}
+
+.carousel{
+    width: -webkit-fill-available;;
+}
+
+.carousel-item{
+    text-align: center;
+}
+
+.carousel-control{
+    padding: .5em;
+    width: min-content;
+    border-radius: 20em;
+}
+
+.carousel-control span{
+    width: 2em;
+    height: 2em;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
+.info-space .area-commom:nth-child(2){
+    margin-right: 0em;
+}
+
+.shadow{
+    box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.15);
+}
+
+#sidebar ul li{
+    border-bottom: 1px solid black!important;
+}
+
+#sidebar ul li a{
+    color: black!important;
+}
+
+
+.toggle-btn span{
+    background-color: black!important;
+}
+/* ------------------------ Main ------------------------ */
+
+.main-section{
+    background: url(../img/web/blog/s1-bg.png)no-repeat center!important;
+    background-size: cover!important;
+}
+
+.col-blog{
+    text-align: center;
+}
+
+.col-blog-left article{
+    text-align: -webkit-center;
+}
+
+.col-blog-left h1 s{
+    color: red;
+}
+
+.col-blog-left h1 s span{
+    color: black;
+}
+
+.col-blog img{
+    width: 75%;
+    margin-inline: auto;
+}
+
+.col-blog-left{
+    margin-top: 3em;
+    float: left;
+}
+
+.col-blog-left h1{
+    color: black;
+    text-transform: uppercase;
+    inline-size: min-content;
+    font-size: 5em;
+}
+
+.col-blog-right{
+    margin-top: 5em;
+    float: right;
+}
+
+.info{
+    min-width: -webkit-fill-available;
+    text-align: center;
+    color: black;
+    font-size: larger;
+}
+/* ------------------------ Sobre ------------------------ */
+.quem-sou-eu{
+    background-color: white;
+    margin-left: 0em;
+}
+
+.quem-sou-eu .area-commom article form{
+    margin-top: 1.5em;
+}
+
+.quem-sou-eu .area-commom article form label{
+    margin-bottom: .5em;
+}
+/* ------------------------ Experiencias ------------------------ */
+.experiencias{
+    padding: 1em;
+}
+
+.experiencias .table td, .experiencias .table th{
+    border: none;
+    padding: 1em;
+}
+
+.experiencias .table td:nth-child(1){
+    width: 20%;
+}
+
+.experiencias .table td:nth-child(2){
+    font-weight: bold;
+    letter-spacing: .025em;
+}
+
+.experiencias .table th{
+    color: gold;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.experiencias .table td{
+    vertical-align: inherit;
+    padding-left: 2em;
+    border-bottom: 1px solid #919496;
+}
+
+/* ------------------------ qualificacoes ------------------------ */
+.qualificacoes{
+    width: 100%;
+    margin-left: 0em;
+    padding: 1em;
+}
+
+.qualificacoes .carousel-item{
+    padding-inline: 2.5em;
+}   
+
+.qualificacoes .carousel-item h3{
+    color: gold;
+    font-size: 1.5em;
+}
+
+.qualificacoes .table td, .qualificacoes .table th{
+    border: none;
+    padding: 1em;
+}
+
+.qualificacoes .table td:nth-child(1){
+    font-weight: bold;
+    letter-spacing: .025em;
+}
+
+.qualificacoes .table td{
+    vertical-align: inherit;
+    padding-left: 2em;
+    border-bottom: 1px solid #919496;
+}
+/* ------------------------ Contato ------------------------ */
+.section-contato-pessoal{
+    background: url(../img/web/blog/s4-bg.png) center;
+    background-size: cover!important;
+}
+
+.row-contato-pessoal{
+    height: 100%;
+}
+
+.contato-pessoal{
+    margin-top: 20%;
+}
+
+.contato-pessoal .nav{
+    min-width: -webkit-fill-available;
+    justify-content: space-around;
+}
+
+.contato-pessoal .nav .nav-link{
+    color: white;
+    text-align: center;
+}
+
+.contato-pessoal .nav .nav-link p{
+    color: gold;
+    font-size: 1em;
+}
+
+.contato-pessoal .nav .nav-link i{
+    font-size: 6em;
+}
+
+/* Dispositivos extra small (telefones em modo retrato, com menos de 576px) */
+@media (min-width: 359.98px) and (max-width: 449.98px) {
+    /* ------------------------ Geral */
+    h2{
+        font-size: 2em;
+    }
+    
+    .common-col{
+        padding: 1.8em;
+    }
+
+    .area-commom{
+        margin-right: .3em;
+    } 
+
+    .info-space{
+        max-width: 100%;
+    }
+
+    .info-space article{
+        padding: 0em;
+        padding-bottom: 1.5em;
+        padding-top: 1.5em;
+    }
+    .info-space article p{
+        font-size: .8em;
+    }
+    /* ------------------------ Section Main */
+    .col-blog-left h1{
+        font-size: 3em;
+    }
+    /* ------------------------ Section Sobre */
+    .quem-sou-eu .area-commom{
+        max-width: 100%;
+    }
+
+    .quem-sou-eu .area-commom article form{
+        font-size: .8em;
+    }
+    /* ------------------------ Section Experiencia */
+    .experiencias .table td, .experiencias .table th{
+        padding: .7em;
+    }
+
+    .experiencias .table td{
+        font-size: .8em;
+        letter-spacing: .015em;
+    }
+
+    .experiencias .table th{
+        font-size: 1em;
+    }
+    /* ------------------------ Section Competencias */
+    .qualificacoes{
+        padding: 0em;
+        padding-top: .8em;
+        padding-bottom: .8em;
+        height: 40em;
+    }
+
+    .qualificacoes .table td{
+        padding-left: 0em;
+    }
+
+    .qualificacoes .table td:nth-child(2){
+        width: 36%;
+    }
+
+    .qualificacoes .table{
+        font-size: .8em;
+    }
+
+    .qualificacoes .carousel-item h3{
+        margin-bottom: 1em;
+    }
+    /* ------------------------ Section Contato */
+    .contato-pessoal {
+        font-size: .55em;
+    }
+}
+
+/* Dispositivos extra small (telefones em modo retrato, com menos de 576px) */
+@media (min-width: 450px) and (max-width: 575.98px){
+    /* ------------------------ Geral */
+    h2{
+        font-size: 2em;
+    }
+
+    .common-col{
+        padding: 1.8em;
+    }
+    
+    .area-commom{
+        margin-right: .3em;
+    }
+
+    .info-space{
+        max-width: 100%;
+    }
+
+    .info-space article{
+        padding: 0em;
+        padding-bottom: 1.5em;
+        padding-top: 1.5em;
+    }
+    
+    .info-space article p{
+        font-size: larger;
+    }
+    
+    /* ------------------------ Section Main */
+    .col-blog-left h1{
+        font-size: 4em;
+    }
+    /* ------------------------ Section Sobre */
+    .quem-sou-eu .area-commom{
+        max-width: 100%;
+    }
+
+    .quem-sou-eu .area-commom article form{
+        font-size: larger;
+    }
+    /* ------------------------ Section Experiencia */
+    .experiencias .table td, .experiencias .table th{
+        padding: .7em;
+    }
+    
+    .experiencias .table th{
+        font-size: 1em;
+    }
+
+    .experiencias .table td{
+        font-size: .8em;
+        letter-spacing: .045em;
+    }
+    /* ------------------------ Section Competencias */
+    .qualificacoes{
+        padding: 0em;
+        padding-top: .8em;
+        padding-bottom: .8em;
+        height: 40em;
+    }
+
+    .qualificacoes .carousel-item h3{
+        margin-bottom: 1em;
+    }
+
+    .qualificacoes .table{
+        font-size: .8em!important;
+    }
+
+    .qualificacoes .table td{
+        padding-left: 0em;
+    }
+
+    .qualificacoes .table td:nth-child(2){
+        width: 36%;
+    }
+    /* ------------------------ Section Contato */
+    
+    .contato-pessoal .nav {
+        font-size: .85em;
+    }
+}
+
+/* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* ------------------------ Geral */
+    .info-space article p{
+        font-size: larger;
+    }
+    
+    .info-space{
+        max-width: 100%;
+    }
+    /* ------------------------ Section Main */
+    /* ------------------------ Section Sobre */
+    .quem-sou-eu .area-commom article form{
+        font-size: larger;
+    }
+
+    .quem-sou-eu .area-commom{
+        max-width: 100%;
+    }
+    /* ------------------------ Section Experiencia */
+    .experiencias .table td{
+        font-size: large;
+    }
+    /* ------------------------ Section Competencias */
+    .qualificacoes{
+        height: 45em;
+    }
+
+    .qualificacoes .table td{
+        padding-left: 0em;
+    }
+
+    .qualificacoes .table td:nth-child(2){
+        width: 36%;
+    }
+    /* ------------------------ Section Contato */
+
+}
+
+/* Dispositivos médios (tablets com 768px ou mais) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* ------------------------ Geral */
+    .info-space article p{
+        font-size: larger;
+    }
+    
+    .info-space{
+        max-width: 100%;
+    }
+    /* ------------------------ Section Main */
+    /* ------------------------ Section Sobre */
+    .quem-sou-eu .area-commom article form{
+        font-size: larger;
+    }
+    /* ------------------------ Section Experiencia */
+    .experiencias .table td{
+        font-size: large;
+    }
+    /* ------------------------ Section Competencias */
+    .qualificacoes{
+        height: 45em;
+    }
+
+    .qualificacoes .table td{
+        padding-left: 0em;
+    }
+
+    .qualificacoes .table td:nth-child(2){
+        width: 36%;
+    }
+    /* ------------------------ Section Contato */
+}
+
+/* Dispositivos large (desktops com 992px ou mais) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* ------------------------ Geral */
+    .info-space article p{
+        font-size: larger;
+    }
+    
+    .info-space{
+        max-width: 100%;
+    }
+    /* ------------------------ Section Main */
+    /* ------------------------ Section Sobre */
+    .quem-sou-eu .area-commom article form{
+        font-size: larger;
+    }
+    /* ------------------------ Section Experiencia */
+    .experiencias .table td{
+        font-size: large;
+    }
+    /* ------------------------ Section Competencias */
+    .qualificacoes{
+        height: 28em;
+    }
+
+    .qualificacoes .table td{
+        padding-left: 0em;
+        font-size: 1.1em;
+    }
+    /* ------------------------ Section Contato */
+}
+
+/* Dispositivos extra large (desktops grandes com 1200px ou mais) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    /* ------------------------ Section Geral */
+    /* ------------------------ Section Main */
+    /* ------------------------ Section Sobre */
+    /* ------------------------ Section Experiencia */
+    /* ------------------------ Section Competencias */
+    .qualificacoes .table td{
+        padding-left: 0em;
+    }
+
+    .qualificacoes{
+        height: 28em;
+    }
+    /* ------------------------ Section Contato */
+    .contato-pessoal .nav{
+        margin-bottom: 10%;
+    }
+   
+}
+
+@media (min-width: 1399.99px){
+    /* ------------------------ Section Geral */
+    /* ------------------------ Section Main */
+    /* ------------------------ Section Sobre */
+    /* ------------------------ Section Experiencia */
+    /* ------------------------ Section Competencias */
+    .qualificacoes{
+        height: 28em;
+    }
+    /* ------------------------ Section Contato */
+    .contato-pessoal .nav{
+        margin-bottom: 10%;
+    }
+}
