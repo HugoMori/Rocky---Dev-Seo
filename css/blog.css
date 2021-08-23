@@ -273,27 +273,7 @@ body{
     h2{
         font-size: 1.8em;
     }
-    
-    .common-col{
-        padding: 1.8em;
-    }
 
-    .area-commom{
-        margin-right: .3em;
-    } 
-
-    .info-space{
-        max-width: 100%;
-    }
-
-    .info-space article{
-        padding: 0em;
-        padding-bottom: 1.5em;
-        padding-top: 1.5em;
-    }
-    .info-space article p{
-        font-size: .8em;
-    }
     .info-space article h3{
         font-size: 1.25em;
     }
@@ -302,52 +282,14 @@ body{
         font-size: 2.5em;
     }
     /* ------------------------ Section Sobre */
-    .quem-sou-eu .area-commom{
-        max-width: 100%;
-    }
-
-    .quem-sou-eu .area-commom article form{
-        font-size: .8em;
-    }
     /* ------------------------ Section Experiencia */
-    .experiencias .table td, .experiencias .table th{
-        padding: .7em;
-    }
-
-    .experiencias .table td{
-        font-size: .8em;
-        letter-spacing: .015em;
-    }
-
-    .experiencias .table th{
-        font-size: 1em;
-    }
     /* ------------------------ Section Competencias */
     .qualificacoes{
-        padding: 0em;
-        padding-top: .8em;
-        padding-bottom: .8em;
-        height: 40em;
-    }
-
-    .qualificacoes .table td{
-        padding-left: 0em;
-    }
-
-    .qualificacoes .table td:nth-child(2){
-        width: 36%;
-    }
-
-    .qualificacoes .table{
-        font-size: .8em;
+        height: auto!important;
     }
 
     .qualificacoes .carousel-item{
         padding-inline: 1.3em;
-    }
-
-    .qualificacoes .carousel-item h3{
-        margin-bottom: 1em;
     }
 
     .carousel-control span {
@@ -356,8 +298,8 @@ body{
     }  
 
     /* ------------------------ Section Contato */
-    .contato-pessoal {
-        font-size: .55em;
+    .contato-pessoal{
+        margin-top: 25%;
     }
 }
 
@@ -367,7 +309,18 @@ body{
     h2{
         font-size: 2em;
     }
-    
+    /* ------------------------ Section Main */
+    .col-blog-left h1{
+        font-size: 3em;
+    }
+    /* ------------------------ Section Sobre */
+    /* ------------------------ Section Experiencia */
+    /* ------------------------ Section Competencias */ 
+    /* ------------------------ Section Contato */
+}
+
+@media (max-width: 449.98px){
+    /* ------------------------ Geral */
     .common-col{
         padding: 1.8em;
     }
@@ -389,9 +342,7 @@ body{
         font-size: .8em;
     }
     /* ------------------------ Section Main */
-    .col-blog-left h1{
-        font-size: 3em;
-    }
+
     /* ------------------------ Section Sobre */
     .quem-sou-eu .area-commom{
         max-width: 100%;

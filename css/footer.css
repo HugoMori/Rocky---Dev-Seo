@@ -74,13 +74,13 @@
 
 .midias .fb {
     margin-left: 4%;
-    margin-right: 40px;
+    margin-right: 2.5em;
 }
 
 /* fb e linkedin icon */
 
 .midias i {
-    font-size: 40px;
+    font-size: 2.5em;
     color: white;
 }
 
@@ -91,7 +91,7 @@
     margin-right: 0px; */
     margin-left: auto!important;
     width: 1px;
-    margin: 8px 15px;
+    margin: .5em 1em;
     background: #818181;
 }
 
@@ -111,7 +111,7 @@
 
 .telefone {
     /* margin-right: 20px; */
-    margin-left: 25px;
+    margin-left: 1.52em;
     margin-right: auto;
 }
 
@@ -183,6 +183,12 @@
     font-weight: bolder;
     font-family: system-ui;
     margin-top: 7%;
+}
+
+@media (max-width: 449.98px){
+    .midias .fb {
+        margin-right: 1.25em;
+    }
 }
 
 @media (max-width: 767.98px) {/* ------------- FOOTER CONTATO ----------------- */
